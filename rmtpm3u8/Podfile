@@ -9,4 +9,6 @@ pod 'JSONModel'
 pod 'SDWebImage'
 pod 'MJRefresh'
 pod 'SVProgressHUD'
+pod 'JKCategories'
+pod 'ZFPlayer'
 end

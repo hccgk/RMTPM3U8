@@ -26,6 +26,8 @@ PODS:
     - SDWebImage/Core (= 4.3.3)
   - SDWebImage/Core (4.3.3)
   - SVProgressHUD (2.2.5)
+  - ZFPlayer (2.1.6):
+    - Masonry
 
 DEPENDENCIES:
   - AFNetworking
@@ -37,6 +39,7 @@ DEPENDENCIES:
   - RTRootNavigationController
   - SDWebImage
   - SVProgressHUD
+  - ZFPlayer
 
 SPEC CHECKSUMS:
   AFNetworking: 8ac6017b94ea105479f7776e5288e48ae9c59bb4
@@ -48,7 +51,8 @@ SPEC CHECKSUMS:
   RTRootNavigationController: 1429554f853e8319a383849befed73d5dc58a108
   SDWebImage: de4d90b5bff3571eae7bd16202b1f43135409fa5
   SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  ZFPlayer: 833cb3974b619bfd01a0ec1ebaabfe6f629e85b4
 
-PODFILE CHECKSUM: e7282c2f9746594049435b4e6f84bea29e2b9e94
+PODFILE CHECKSUM: 5c4d9b5dc8599c25b2fffb737bb2731335e8097b
 
 COCOAPODS: 1.3.1

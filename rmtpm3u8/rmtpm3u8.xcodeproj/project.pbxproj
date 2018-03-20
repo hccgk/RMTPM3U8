@@ -15,6 +15,14 @@
 		0ED445C120609E5800A08DA8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ED445C020609E5800A08DA8 /* main.m */; };
 		0ED445CB20609E5800A08DA8 /* rmtpm3u8Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ED445CA20609E5800A08DA8 /* rmtpm3u8Tests.m */; };
 		0ED445D620609E5800A08DA8 /* rmtpm3u8UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ED445D520609E5800A08DA8 /* rmtpm3u8UITests.m */; };
+		0ED445EA2060B02A00A08DA8 /* baseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ED445E82060B02A00A08DA8 /* baseViewController.m */; };
+		0ED445EE2060B1B800A08DA8 /* EmptyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ED445ED2060B1B800A08DA8 /* EmptyView.m */; };
+		0ED445F12060B32C00A08DA8 /* HCTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ED445EF2060B32B00A08DA8 /* HCTools.m */; };
+		0ED445F52060B57400A08DA8 /* MUViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ED445F42060B57400A08DA8 /* MUViewController.m */; };
+		0ED445F92060B59C00A08DA8 /* RTMPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ED445F82060B59C00A08DA8 /* RTMPViewController.m */; };
+		0ED445FC2060E5BB00A08DA8 /* tmpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ED445FB2060E5BB00A08DA8 /* tmpViewController.m */; };
+		0ED446032060FA6400A08DA8 /* TVmodel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ED446022060FA6400A08DA8 /* TVmodel.m */; };
+		0ED446082061092600A08DA8 /* modelT.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0ED446072061092600A08DA8 /* modelT.txt */; };
 		9556ACAB74845EF3EFFF9FCD /* libPods-rmtpm3u8.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C806B10390CACE1B89659AFC /* libPods-rmtpm3u8.a */; };
 /* End PBXBuildFile section */
 
@@ -52,6 +60,23 @@
 		0ED445D120609E5800A08DA8 /* rmtpm3u8UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = rmtpm3u8UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0ED445D520609E5800A08DA8 /* rmtpm3u8UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = rmtpm3u8UITests.m; sourceTree = "<group>"; };
 		0ED445D720609E5800A08DA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0ED445E42060ACE700A08DA8 /* Kdefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Kdefine.h; sourceTree = "<group>"; };
+		0ED445E52060ACE800A08DA8 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		0ED445E82060B02A00A08DA8 /* baseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = baseViewController.m; sourceTree = "<group>"; };
+		0ED445E92060B02A00A08DA8 /* baseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = baseViewController.h; sourceTree = "<group>"; };
+		0ED445EC2060B1B800A08DA8 /* EmptyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmptyView.h; sourceTree = "<group>"; };
+		0ED445ED2060B1B800A08DA8 /* EmptyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmptyView.m; sourceTree = "<group>"; };
+		0ED445EF2060B32B00A08DA8 /* HCTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCTools.m; sourceTree = "<group>"; };
+		0ED445F02060B32C00A08DA8 /* HCTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCTools.h; sourceTree = "<group>"; };
+		0ED445F32060B57400A08DA8 /* MUViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MUViewController.h; sourceTree = "<group>"; };
+		0ED445F42060B57400A08DA8 /* MUViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MUViewController.m; sourceTree = "<group>"; };
+		0ED445F72060B59C00A08DA8 /* RTMPViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RTMPViewController.h; sourceTree = "<group>"; };
+		0ED445F82060B59C00A08DA8 /* RTMPViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RTMPViewController.m; sourceTree = "<group>"; };
+		0ED445FA2060E5BB00A08DA8 /* tmpViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = tmpViewController.h; sourceTree = "<group>"; };
+		0ED445FB2060E5BB00A08DA8 /* tmpViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tmpViewController.m; sourceTree = "<group>"; };
+		0ED446012060FA6400A08DA8 /* TVmodel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TVmodel.h; sourceTree = "<group>"; };
+		0ED446022060FA6400A08DA8 /* TVmodel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TVmodel.m; sourceTree = "<group>"; };
+		0ED446072061092600A08DA8 /* modelT.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = modelT.txt; sourceTree = "<group>"; };
 		324B2F55E3DDF83BA66578C6 /* Pods-rmtpm3u8.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rmtpm3u8.debug.xcconfig"; path = "Pods/Target Support Files/Pods-rmtpm3u8/Pods-rmtpm3u8.debug.xcconfig"; sourceTree = "<group>"; };
 		C806B10390CACE1B89659AFC /* libPods-rmtpm3u8.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-rmtpm3u8.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F813526F25BF27938C962850 /* Pods-rmtpm3u8.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rmtpm3u8.release.xcconfig"; path = "Pods/Target Support Files/Pods-rmtpm3u8/Pods-rmtpm3u8.release.xcconfig"; sourceTree = "<group>"; };
@@ -108,8 +133,12 @@
 		0ED445B020609E5800A08DA8 /* rmtpm3u8 */ = {
 			isa = PBXGroup;
 			children = (
-				0ED445B120609E5800A08DA8 /* AppDelegate.h */,
-				0ED445B220609E5800A08DA8 /* AppDelegate.m */,
+				0ED446042061040200A08DA8 /* Resouse */,
+				0ED445E32060ACCA00A08DA8 /* Config */,
+				0ED445F22060B36A00A08DA8 /* Vendor */,
+				0ED445E62060AFDF00A08DA8 /* M3U8 */,
+				0ED445F62060B58800A08DA8 /* RTMP */,
+				0ED445E72060B00900A08DA8 /* Base */,
 				0ED445B420609E5800A08DA8 /* ViewController.h */,
 				0ED445B520609E5800A08DA8 /* ViewController.m */,
 				0ED445B720609E5800A08DA8 /* Main.storyboard */,
@@ -137,6 +166,83 @@
 				0ED445D720609E5800A08DA8 /* Info.plist */,
 			);
 			path = rmtpm3u8UITests;
+			sourceTree = "<group>";
+		};
+		0ED445E32060ACCA00A08DA8 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				0ED445E42060ACE700A08DA8 /* Kdefine.h */,
+				0ED445E52060ACE800A08DA8 /* PrefixHeader.pch */,
+				0ED445B120609E5800A08DA8 /* AppDelegate.h */,
+				0ED445B220609E5800A08DA8 /* AppDelegate.m */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		0ED445E62060AFDF00A08DA8 /* M3U8 */ = {
+			isa = PBXGroup;
+			children = (
+				0ED445F32060B57400A08DA8 /* MUViewController.h */,
+				0ED445F42060B57400A08DA8 /* MUViewController.m */,
+				0ED445FA2060E5BB00A08DA8 /* tmpViewController.h */,
+				0ED445FB2060E5BB00A08DA8 /* tmpViewController.m */,
+				0ED446002060FA5400A08DA8 /* Model */,
+			);
+			path = M3U8;
+			sourceTree = "<group>";
+		};
+		0ED445E72060B00900A08DA8 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				0ED445E92060B02A00A08DA8 /* baseViewController.h */,
+				0ED445E82060B02A00A08DA8 /* baseViewController.m */,
+				0ED445EB2060B19A00A08DA8 /* EmptyView */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		0ED445EB2060B19A00A08DA8 /* EmptyView */ = {
+			isa = PBXGroup;
+			children = (
+				0ED445EC2060B1B800A08DA8 /* EmptyView.h */,
+				0ED445ED2060B1B800A08DA8 /* EmptyView.m */,
+			);
+			path = EmptyView;
+			sourceTree = "<group>";
+		};
+		0ED445F22060B36A00A08DA8 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				0ED445F02060B32C00A08DA8 /* HCTools.h */,
+				0ED445EF2060B32B00A08DA8 /* HCTools.m */,
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		0ED445F62060B58800A08DA8 /* RTMP */ = {
+			isa = PBXGroup;
+			children = (
+				0ED445F72060B59C00A08DA8 /* RTMPViewController.h */,
+				0ED445F82060B59C00A08DA8 /* RTMPViewController.m */,
+			);
+			path = RTMP;
+			sourceTree = "<group>";
+		};
+		0ED446002060FA5400A08DA8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0ED446012060FA6400A08DA8 /* TVmodel.h */,
+				0ED446022060FA6400A08DA8 /* TVmodel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0ED446042061040200A08DA8 /* Resouse */ = {
+			isa = PBXGroup;
+			children = (
+				0ED446072061092600A08DA8 /* modelT.txt */,
+			);
+			path = Resouse;
 			sourceTree = "<group>";
 		};
 		32382CEC97863D16D5200C88 /* Pods */ = {
@@ -266,6 +372,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0ED445BE20609E5800A08DA8 /* LaunchScreen.storyboard in Resources */,
+				0ED446082061092600A08DA8 /* modelT.txt in Resources */,
 				0ED445BB20609E5800A08DA8 /* Assets.xcassets in Resources */,
 				0ED445B920609E5800A08DA8 /* Main.storyboard in Resources */,
 			);
@@ -297,6 +404,7 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-rmtpm3u8/Pods-rmtpm3u8-resources.sh",
 				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
 				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
+				"${PODS_ROOT}/ZFPlayer/ZFPlayer/ZFPlayer.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
@@ -347,9 +455,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0ED445FC2060E5BB00A08DA8 /* tmpViewController.m in Sources */,
 				0ED445B620609E5800A08DA8 /* ViewController.m in Sources */,
+				0ED445F92060B59C00A08DA8 /* RTMPViewController.m in Sources */,
+				0ED445EA2060B02A00A08DA8 /* baseViewController.m in Sources */,
 				0ED445C120609E5800A08DA8 /* main.m in Sources */,
+				0ED446032060FA6400A08DA8 /* TVmodel.m in Sources */,
 				0ED445B320609E5800A08DA8 /* AppDelegate.m in Sources */,
+				0ED445F12060B32C00A08DA8 /* HCTools.m in Sources */,
+				0ED445F52060B57400A08DA8 /* MUViewController.m in Sources */,
+				0ED445EE2060B1B800A08DA8 /* EmptyView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -514,6 +629,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4GK79UN767;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/rmtpm3u8/Config/PrefixHeader.pch";
 				INFOPLIST_FILE = rmtpm3u8/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cnyt.rmtpm3u8.rmtpm3u8;
@@ -528,6 +645,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4GK79UN767;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/rmtpm3u8/Config/PrefixHeader.pch";
 				INFOPLIST_FILE = rmtpm3u8/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cnyt.rmtpm3u8.rmtpm3u8;
