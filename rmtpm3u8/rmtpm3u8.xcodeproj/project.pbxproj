@@ -20,9 +20,11 @@
 		0ED445F12060B32C00A08DA8 /* HCTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ED445EF2060B32B00A08DA8 /* HCTools.m */; };
 		0ED445F52060B57400A08DA8 /* MUViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ED445F42060B57400A08DA8 /* MUViewController.m */; };
 		0ED445F92060B59C00A08DA8 /* RTMPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ED445F82060B59C00A08DA8 /* RTMPViewController.m */; };
-		0ED445FC2060E5BB00A08DA8 /* tmpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ED445FB2060E5BB00A08DA8 /* tmpViewController.m */; };
 		0ED446032060FA6400A08DA8 /* TVmodel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ED446022060FA6400A08DA8 /* TVmodel.m */; };
 		0ED446082061092600A08DA8 /* modelT.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0ED446072061092600A08DA8 /* modelT.txt */; };
+		0ED446102062505000A08DA8 /* FMDBmanger.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ED4460F2062505000A08DA8 /* FMDBmanger.m */; };
+		0ED44617206276C100A08DA8 /* AvailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ED44616206276C100A08DA8 /* AvailViewController.m */; };
+		0ED4461A2062773F00A08DA8 /* PlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ED446182062773F00A08DA8 /* PlayViewController.m */; };
 		9556ACAB74845EF3EFFF9FCD /* libPods-rmtpm3u8.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C806B10390CACE1B89659AFC /* libPods-rmtpm3u8.a */; };
 /* End PBXBuildFile section */
 
@@ -72,11 +74,15 @@
 		0ED445F42060B57400A08DA8 /* MUViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MUViewController.m; sourceTree = "<group>"; };
 		0ED445F72060B59C00A08DA8 /* RTMPViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RTMPViewController.h; sourceTree = "<group>"; };
 		0ED445F82060B59C00A08DA8 /* RTMPViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RTMPViewController.m; sourceTree = "<group>"; };
-		0ED445FA2060E5BB00A08DA8 /* tmpViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = tmpViewController.h; sourceTree = "<group>"; };
-		0ED445FB2060E5BB00A08DA8 /* tmpViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tmpViewController.m; sourceTree = "<group>"; };
 		0ED446012060FA6400A08DA8 /* TVmodel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TVmodel.h; sourceTree = "<group>"; };
 		0ED446022060FA6400A08DA8 /* TVmodel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TVmodel.m; sourceTree = "<group>"; };
 		0ED446072061092600A08DA8 /* modelT.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = modelT.txt; sourceTree = "<group>"; };
+		0ED4460E2062505000A08DA8 /* FMDBmanger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FMDBmanger.h; sourceTree = "<group>"; };
+		0ED4460F2062505000A08DA8 /* FMDBmanger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMDBmanger.m; sourceTree = "<group>"; };
+		0ED44615206276C100A08DA8 /* AvailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AvailViewController.h; sourceTree = "<group>"; };
+		0ED44616206276C100A08DA8 /* AvailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AvailViewController.m; sourceTree = "<group>"; };
+		0ED446182062773F00A08DA8 /* PlayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayViewController.m; sourceTree = "<group>"; };
+		0ED446192062773F00A08DA8 /* PlayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayViewController.h; sourceTree = "<group>"; };
 		324B2F55E3DDF83BA66578C6 /* Pods-rmtpm3u8.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rmtpm3u8.debug.xcconfig"; path = "Pods/Target Support Files/Pods-rmtpm3u8/Pods-rmtpm3u8.debug.xcconfig"; sourceTree = "<group>"; };
 		C806B10390CACE1B89659AFC /* libPods-rmtpm3u8.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-rmtpm3u8.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F813526F25BF27938C962850 /* Pods-rmtpm3u8.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rmtpm3u8.release.xcconfig"; path = "Pods/Target Support Files/Pods-rmtpm3u8/Pods-rmtpm3u8.release.xcconfig"; sourceTree = "<group>"; };
@@ -139,8 +145,9 @@
 				0ED445E62060AFDF00A08DA8 /* M3U8 */,
 				0ED445F62060B58800A08DA8 /* RTMP */,
 				0ED445E72060B00900A08DA8 /* Base */,
-				0ED445B420609E5800A08DA8 /* ViewController.h */,
+				0ED4460D20624F1400A08DA8 /* DBManger */,
 				0ED445B520609E5800A08DA8 /* ViewController.m */,
+				0ED445B420609E5800A08DA8 /* ViewController.h */,
 				0ED445B720609E5800A08DA8 /* Main.storyboard */,
 				0ED445BA20609E5800A08DA8 /* Assets.xcassets */,
 				0ED445BC20609E5800A08DA8 /* LaunchScreen.storyboard */,
@@ -182,10 +189,10 @@
 		0ED445E62060AFDF00A08DA8 /* M3U8 */ = {
 			isa = PBXGroup;
 			children = (
-				0ED445F32060B57400A08DA8 /* MUViewController.h */,
-				0ED445F42060B57400A08DA8 /* MUViewController.m */,
-				0ED445FA2060E5BB00A08DA8 /* tmpViewController.h */,
-				0ED445FB2060E5BB00A08DA8 /* tmpViewController.m */,
+				0ED446192062773F00A08DA8 /* PlayViewController.h */,
+				0ED446182062773F00A08DA8 /* PlayViewController.m */,
+				0ED4461B206277BA00A08DA8 /* TestMU */,
+				0ED446112062752E00A08DA8 /* MUAvailabel */,
 				0ED446002060FA5400A08DA8 /* Model */,
 			);
 			path = M3U8;
@@ -243,6 +250,33 @@
 				0ED446072061092600A08DA8 /* modelT.txt */,
 			);
 			path = Resouse;
+			sourceTree = "<group>";
+		};
+		0ED4460D20624F1400A08DA8 /* DBManger */ = {
+			isa = PBXGroup;
+			children = (
+				0ED4460E2062505000A08DA8 /* FMDBmanger.h */,
+				0ED4460F2062505000A08DA8 /* FMDBmanger.m */,
+			);
+			path = DBManger;
+			sourceTree = "<group>";
+		};
+		0ED446112062752E00A08DA8 /* MUAvailabel */ = {
+			isa = PBXGroup;
+			children = (
+				0ED44615206276C100A08DA8 /* AvailViewController.h */,
+				0ED44616206276C100A08DA8 /* AvailViewController.m */,
+			);
+			path = MUAvailabel;
+			sourceTree = "<group>";
+		};
+		0ED4461B206277BA00A08DA8 /* TestMU */ = {
+			isa = PBXGroup;
+			children = (
+				0ED445F32060B57400A08DA8 /* MUViewController.h */,
+				0ED445F42060B57400A08DA8 /* MUViewController.m */,
+			);
+			path = TestMU;
 			sourceTree = "<group>";
 		};
 		32382CEC97863D16D5200C88 /* Pods */ = {
@@ -455,7 +489,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0ED445FC2060E5BB00A08DA8 /* tmpViewController.m in Sources */,
+				0ED44617206276C100A08DA8 /* AvailViewController.m in Sources */,
+				0ED4461A2062773F00A08DA8 /* PlayViewController.m in Sources */,
+				0ED446102062505000A08DA8 /* FMDBmanger.m in Sources */,
 				0ED445B620609E5800A08DA8 /* ViewController.m in Sources */,
 				0ED445F92060B59C00A08DA8 /* RTMPViewController.m in Sources */,
 				0ED445EA2060B02A00A08DA8 /* baseViewController.m in Sources */,

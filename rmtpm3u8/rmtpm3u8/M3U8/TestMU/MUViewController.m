@@ -11,7 +11,7 @@
 #import <AVKit/AVKit.h>
 #import "ZFPlayerView.h"
 
-#import "tmpViewController.h"
+#import "PlayViewController.h"
 #import "TVmodel.h"
 
 @interface MUViewController ()<UITableViewDelegate,UITableViewDataSource>
@@ -107,7 +107,7 @@
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     if (indexPath.row < _itmeArray.count) {
         TVmodel *model = _itmeArray[indexPath.row];
-        tmpViewController *vc = [[tmpViewController alloc] init];
+        PlayViewController *vc = [[PlayViewController alloc] init];
         vc.model = model;
         [self.navigationController pushViewController:vc animated:YES];
     }

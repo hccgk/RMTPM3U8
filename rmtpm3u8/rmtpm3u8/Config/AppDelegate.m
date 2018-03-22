@@ -10,6 +10,8 @@
 #import "CYLTabBarController.h"
 #import "MUViewController.h"
 #import "RTMPViewController.h"
+#import "AvailViewController.h"
+
 @interface AppDelegate ()<UITabBarControllerDelegate>{//
     CYLTabBarController *tabBarController;
 }
@@ -32,12 +34,16 @@
     RTMPViewController *vcrtm= [[RTMPViewController alloc] init];
     RTRootNavigationController *vcrtmp = [[RTRootNavigationController alloc] initWithRootViewController:vcrtm];
 
+    AvailViewController *av= [[AvailViewController alloc] init];
+    RTRootNavigationController *avv = [[RTRootNavigationController alloc] initWithRootViewController:av];
+    
     tabBarController = [[CYLTabBarController alloc] init];
     tabBarController.delegate = self;
 
     [self dealsizeTabBarForController:tabBarController];
     [tabBarController setViewControllers:@[
                                            muvc,
+                                           avv,
                                            vcrtmp
                                            ]];
     
@@ -58,6 +64,11 @@
     tabBarControllert.tabBarItemsAttributes =  @[
                                                  @{
                                                      CYLTabBarItemTitle :  @"m3u8",
+                                                     CYLTabBarItemImage : @"tabicon_zichan",
+                                                     CYLTabBarItemSelectedImage : @"tabicon_zichan_sel",
+                                                     },
+                                                 @{
+                                                     CYLTabBarItemTitle :  @"Availabel",
                                                      CYLTabBarItemImage : @"tabicon_zichan",
                                                      CYLTabBarItemSelectedImage : @"tabicon_zichan_sel",
                                                      },

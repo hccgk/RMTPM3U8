@@ -11,6 +11,5 @@
 @interface TVmodel : JSONModel
 @property(nonatomic,copy) NSString *title;
 @property(nonatomic,copy) NSString *urlString;
-
-
+@property(nonatomic,strong) NSNumber *itemId;
 @end

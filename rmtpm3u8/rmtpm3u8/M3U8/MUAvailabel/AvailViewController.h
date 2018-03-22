@@ -1,5 +1,5 @@
 //
-//  tmpViewController.h
+//  MUViewController.h
 //  rmtpm3u8
 //
 //  Created by 何川 on 2018/3/20.
@@ -7,8 +7,7 @@
 //
 
 #import "baseViewController.h"
-#import "TVmodel.h"
 
-@interface tmpViewController : baseViewController
-@property(nonatomic,strong) TVmodel *model;
+@interface AvailViewController : baseViewController
+
 @end

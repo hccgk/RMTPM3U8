@@ -7,7 +7,6 @@
 //
 
 #import "RTMPViewController.h"
-#import "tmpViewController.h"
 @interface RTMPViewController ()
 
 @end
@@ -18,20 +17,7 @@
     [super viewDidLoad];
     self.title = @"rtmp";
     
-//    self.view.backgroundColor = kBlue;
-//    self.rt_navigationController.navigationBarHidden = NO;
-//    UIButton *conparBtn = [HCTools buttonNormalEasyFrame:CGRectMake(0, 0, 120, 40) titleColor:kBlue titleFountFloat:14 backgroundColor:kwhite corner:0 title:@"选择频道"];
-//    self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithCustomView:conparBtn];
-//
-//    UIButton *addbutn = [UIButton buttonWithType:UIButtonTypeContactAdd];
-//    addbutn.frame = CGRectMake(10, 60, 40, 40) ;
-//    [addbutn jk_addTapActionWithBlock:^(UIGestureRecognizer *gestureRecoginzer) {
-//        tmpViewController *tmv = [[tmpViewController alloc] init];
-//        tmv.title = @"temp";
-//        [self.navigationController pushViewController:tmv animated:YES];
-////        [self presentViewController:tmv animated:YES completion:nil];
-//    }];
-//    [self.view addSubview:addbutn];
+
     
 }
 //- (instancetype)init {

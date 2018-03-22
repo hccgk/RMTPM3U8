@@ -11,4 +11,5 @@ pod 'MJRefresh'
 pod 'SVProgressHUD'
 pod 'JKCategories'
 pod 'ZFPlayer'
+pod 'FMDB'
 end
